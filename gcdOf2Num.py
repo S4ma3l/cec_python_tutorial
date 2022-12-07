@@ -8,7 +8,7 @@ def gcd(x,y):
     for i in range(1,x+1):
         if x%i == 0:
             factorList1.append(i)
-    for i in range(1,y + 1):
+    for i in range(1,y + 1):    
         if y % i == 0:
             factorList2.append(i)
     i=-1
