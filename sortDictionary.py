@@ -4,6 +4,6 @@ for i in range(n):
     key = input("Enter the key")
     val = input("Enter value")
     dict[key] = val
-print(dict)
-print("Sorted [ascending]: ", sorted(dict.values()))
-print("Sorted [descending]: ", sorted(dict.values(),reverse=True))
+print("Unsorted: ",dict)
+print("Sorted [ascending]: ", sorted(dict.items()))
+print("Sorted [descending]: ", sorted(dict.items(),reverse=True))
